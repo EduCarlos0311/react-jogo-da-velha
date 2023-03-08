@@ -1,5 +1,5 @@
-import Header from  "../header/Header"
-import Game from "../game/Game"
+import Header from  '../header/Header'
+import Game from '../game/Game'
 
 function GamePage () {
     return (
@@ -11,3 +11,4 @@ function GamePage () {
 }
 
 export default GamePage
+
