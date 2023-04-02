@@ -3,14 +3,15 @@ import classNames from 'classnames'
 import styles from './GameOption.module.css'
 import Icon from '../icon/Icon'
 
-const GameIcon = ({ iconName }) => <Icon  iconName={iconÑame} size="25px" />
+const GameIcon = ({ iconName }) => <Icon  iconName={iconame} size="25px" />
 
-function GameOption ({ status, onClick, isWinner}) {
+function GameOption ({ status, onClick, isWinner, isDraw}) {
     return (
         <div 
             className={
                 classNames(styles.gameOption, {
-                    [styles.winner]: isWinner
+                    [styles.winner]: isWinner,
+                    [styles.draw]: isDraw
                 })
             }
             onClick={onClick}
