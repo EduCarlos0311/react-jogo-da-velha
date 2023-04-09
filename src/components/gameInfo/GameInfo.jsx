@@ -44,6 +44,7 @@ function GameInfo ({ currentPlayer, winner, onReset, isDraw }) {
                 Reiniciar
             </Button>
         </div>
+      
     )
 }
 
